@@ -18,7 +18,7 @@ function tienenMismaLongitud(str1, str2) {
    // Tu código:
    if (str1.lenght == str2.lenght){
       return true;
-   }else(str1.lenght != str2.lenght)
+   }else(str1.lenght !== str2.lenght)
    {
       return false;
    }
